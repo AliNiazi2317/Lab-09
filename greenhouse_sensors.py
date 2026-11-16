@@ -27,3 +27,4 @@ np.random.seed(7)
 readings_again = np.random.randint(20, 41, size=(6, 3))
 
 print("Reproducible:", np.array_equal(readings, readings_again))
+print("Overall hottest reading:", readings.max())
