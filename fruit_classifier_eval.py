@@ -23,3 +23,5 @@ mse = np.mean((w_true - w_pred)**2)
 print("Predicted:", y_pred)
 print("Accuracy:", accuracy)
 print("MSE:", mse)
+wrong_predictions = y_pred != y_test
+print("Wrong predictions:", wrong_predictions)
